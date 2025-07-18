@@ -9,11 +9,28 @@
   font-weight: 700;
   font-style: normal;
 }
-
-html, body {
+html {
+  margin: 0 auto;
+}
+body {
   font-family: 'Play', sans-serif;
+  line-height: 1.6;
+  color: #333;          
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
 }
 
+hr {
+  margin: 30px 0;
+}
+
+.sentence {
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
 p {
   font-weight: 400;
 }
