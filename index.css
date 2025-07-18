@@ -4,16 +4,12 @@
   font-style: normal;
 }
 
-.play-bold {
-  font-family: "Play", sans-serif;
-  font-weight: 700;
-  font-style: normal;
-}
 html {
   margin: 0 auto;
 }
 body {
   font-family: 'Play', sans-serif;
+  font-weight: 500;
   line-height: 1.6;
   color: #333;          
   max-width: 800px;
@@ -21,9 +17,13 @@ body {
   padding: 20px;
 }
 
+h1, h2 {
+  font-weight: 700;
+}
+
 h3{
   font-size: 20px;
-  font-weight: 400;
+  font-weight: 500;
 }
 
 hr {
@@ -31,7 +31,7 @@ hr {
 }
 
 .sentence {
-  font-weight: 400;
+  font-weight: 500;
   font-size: 20px;
   display: flex;
   align-items: center;
