@@ -1,0 +1,19 @@
+.play-regular {
+  font-family: "Play", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.play-bold {
+  font-family: "Play", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+html, body {
+  font-family: 'Play', sans-serif;
+}
+
+p {
+  font-weight: 400;
+}
