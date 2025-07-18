@@ -22,7 +22,7 @@ body {
 }
 
 h3{
-  font-size: 19px;
+  font-size: 20px;
   font-weight: 400;
 }
 
@@ -32,7 +32,7 @@ hr {
 
 .sentence {
   font-weight: 400;
-  font-size: 19px;
+  font-size: 20px;
   display: flex;
   align-items: center;
   gap: 5px;
