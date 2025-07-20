@@ -1,0 +1,40 @@
+/* dark model*/
+body.dark-mode{
+  background-color: #524f4f;
+  color: white;
+}
+
+.toggle-btn {
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  background: transparent;
+  border: none;
+  color: #333;
+  cursor: pointer;
+  box-shadow: none;
+  padding: 0;
+  user-select: none;
+
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.toggle-btn:hover {
+  background: rgba(51, 51, 51, 0.1);
+}
+
+.toggle-btn:active {
+  transform: scale(0.9);
+}
+
+.toggle-btn img {
+  width: 35px;      /* 建议图片比按钮稍小，避免溢出 */
+  height: 35px;
+  object-fit: contain;
+  cursor: pointer;
+  transition: transform 0.2s ease;
+}
